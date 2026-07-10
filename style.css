@@ -1,43 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: black;
+    opacity: 60%;
 }
 nav{
-    background-image: url(n-bg.jpg) ;
+    background-image: url(n-bg.jpg);
+    
     background-color: black;
-    opacity: 60%;
+    
     height: 700px;
   justify-items: center;
   align-items: center;
  
 }
 nav div{
+        margin-left: 39px;
+
     background-color: aqua;
     display: inline-flex;
      justify-items: center;  
      padding: auto;
     align-items: center;
     max-width: 70vw;
-     margin-top: 60px;
+     margin-top: 22px;
      height: 70px;
+     opacity: 1;
+      z-index: 10;
 
 }
 nav .button1{
     display: inline-flex;
-    margin-left: 1296px;
+    margin-left: 1096px;
     justify-content: space-evenly;
     align-items: baseline;
     max-width: 68vw;
     position: absolute;
      margin-top: 60px;
+     width: 142px;
+     height: 38px;
+     opacity: 1;
+     z-index: 10;
 }
 nav .button2{
     display: inline-flex;
-    margin-left: 1396px;
+    margin-left: 1196px;
     justify-content: space-evenly;
     align-items: baseline;
     max-width: 68vw;
     position: absolute;
     height: 30px;
     width: 70px;
+    width: 142px;
+     height: 38px;
      margin-top: 60px;
+     opacity: 1;
+      z-index: 10;
 }

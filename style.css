@@ -25,7 +25,6 @@ nav::before {
     width: 100%;
     height: 100%;
     
-    /* Move background properties here */
     background-image: url(n-bg.jpg);
     background-color: black;
     background-size: cover;      /* Helps position the image nicely */
@@ -91,4 +90,16 @@ nav .button2 {
     color: white;
     font-family: sans-serif;
     border-radius: 8px;
+}
+.f1{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: white;
+
+    text-align: center;
+    justify-self: center;
+    z-index: 3;
+    position: relative;
+
 }

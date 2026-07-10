@@ -1,23 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Good practice to keep layout widths accurate */
+    box-sizing: border-box; 
 }
 
 body {
     background-color: black;
-    /* REMOVED opacity: 50% from here so children stay solid */
+   
 }
 
 nav {
-    position: relative; /* REQUIRED: Tells the transparent layer where to attach */
+    position: relative; 
     height: 600px;
     justify-items: center;
     align-items: center;
-    overflow: hidden;   /* Keeps the background image from spilling out */
+    overflow: hidden;  
 }
 
-/* Create a separate layer just for the transparent background image */
 nav::before {
     content: "";
     position: absolute;
@@ -32,7 +31,7 @@ nav::before {
     background-size: cover;      /* Helps position the image nicely */
     background-position: center;
     
-    opacity: 0.5; /* This changes ONLY the background image opacity! */
+    opacity: 0.5; 
     z-index: 1;   /* Puts it behind your text and buttons */
 }
 

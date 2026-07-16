@@ -14,6 +14,7 @@ nav {
     overflow: hidden;  
 }
 
+/*This commits the items below in the nav*/
 nav::before {
     content: "";
     position: absolute;
